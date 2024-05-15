@@ -1,0 +1,20 @@
+{
+  "name": "expressapi",
+  "version": "1.0.0",
+  "description": "Api com autenticação JWT para fins de estudo",
+  "main": "src/index.ts",
+  "scripts": {
+    "dev": "ts-node-dev --inspect --transpile-only --ignore-watch node_modules src/index.ts",
+    "build": "tsc"
+  },
+  "author": "Guilherme Chaves (Guilherme1oo04)",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.19.2"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.21",
+    "ts-node-dev": "^2.0.0",
+    "typescript": "^5.4.5"
+  }
+}
